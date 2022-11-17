@@ -93,10 +93,13 @@
 
       let html = `
           <form id="check-aval-form" action="" method="post" novalidate class="needs-validation">
-            <div id ="travel-date-modal" class="form-row">
-              <div id class="col">
-                <div id="travel-date" data-date="01/25/2020"></div>
-
+            <div class="form-row">
+              <div class="col">
+                <div class="form-row" id="travel-date-modal">
+                  <div class="col">
+                    <input disabled required type="text" class="form-control" name="travel-date" id="travel-date">
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -113,11 +116,11 @@
 
 
     // Start Date picker
-    const elem = document.querySelector('input[name="travel-date"]');
-    const datepicker = new Datepicker(elem, {
-      format: "dd-mm-yyyy",
-    });
-
+    // const elem = document.querySelector('input[name="travel-date"]');
+    // const datepicker = new Datepicker(elem, {
+    //   format: "dd-mm-yyyy",
+    // });
+git 
     //End of date picker 
 
     // Start Sweet alert
@@ -204,8 +207,8 @@
             return [
               document.getElementById('travel-date').value,
             ]
-          }
-        })
+          },
+        });
 
         if (formValues) {
           Swal.fire(JSON.stringify(formValues))

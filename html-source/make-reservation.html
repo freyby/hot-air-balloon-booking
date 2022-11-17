@@ -1,74 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
 </head>
+
 <body>
   <div class="container">
-  <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-    <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-      <span class="fs-4" style="color:#4f5d73">Hot Air Ballooning</span>
-    </a>
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <span class="fs-4" style="color:#4f5d73">Hot Air Ballooning</span>
+      </a>
 
-    <ul class="nav nav-pills">
-      <li class="nav-item dropdown" >
-        <a class="nav-link dropdown-toggle" style="color:#4f5d73" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Places
-        </a>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" style="color:#4f5d73" href="vilnius.html">Vilnius</a></li>
-          <li><a class="dropdown-item" style="color:#4f5d73" href="klaipeda.html">Klaipeda</a></li>
-        </ul>
-      </li>
-      <li class="nav-item"><a href="pricing.html" class="nav-link"style="color:#4f5d73">Pricing</a></li>
-      <li class="nav-item"><a href="contact.html" class="nav-link"style="color:#4f5d73">Contact</a></li>
-      <li class="nav-item"><a href="about.html" class="nav-link"style="color:#4f5d73">About</a></li>
-      <li class="nav-item"><a href="booking.html" class="nav-link active" aria-current="page" style="background-color: #4f5d73;">Book Now</a></li>
-    </ul>
-  </header>
-</div>
-
-<main>
-    <div class="col-md-4 container">
-        <h1>Make reservation</h1>
-        <form action="" method="post" class="needs-validation" novalidate>
-            <div class="form-group mt-3">
-                <label for="first_name">First name</label>
-                <input class="form-control" type="text" name="first_name" id="first_name" required autocomplete="on">
-            </div>
-            <div class="form-group">
-                <label for="last_name">Last name</label>
-                <input class="form-control" type="text" name="last_name" id="last_name" required autocomplete="on">
-            </div>
-            <div class="form-group">
-                <label for="email_name">Email</label>
-                <input class="form-control" type="email" name="email_name" id="email_name" required autocomplete="on">
-            </div>
-            <div class="form-group">
-                <label for="phone_name">Phone</label>
-                <input class="form-control" type="number" name="phone_name" id="phone_name" required autocomplete="on">
-            </div>
-
-            <button style="border-color: #4f5d73; background-color:#4f5d73" type="submit" value="make_reservation" class="mt-3 mb-5 btn btn-primary">Reserve</button>
-
-
-        </form>
-    </div>
-</main>
-
-
-<footer class="footer mt-auto py-3 bg-light">
-  <div class="container">
-    <span class="text-muted">Place sticky footer content here.</span>
+      <ul class="nav nav-pills">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" style="color:#4f5d73" href="#" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Places
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" style="color:#4f5d73" href="vilnius.html">Vilnius</a></li>
+            <li><a class="dropdown-item" style="color:#4f5d73" href="klaipeda.html">Klaipeda</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a href="pricing.html" class="nav-link" style="color:#4f5d73">Pricing</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link" style="color:#4f5d73">Contact</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link" style="color:#4f5d73">About</a></li>
+        <li class="nav-item"><a href="booking.html" class="nav-link active" aria-current="page"
+            style="background-color: #4f5d73;">Book Now</a></li>
+      </ul>
+    </header>
   </div>
-</footer>    
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+  <main>
+    <div class="col-md-4 container">
+      <h1>Make reservation</h1>
+      <form action="" method="post" class="needs-validation" novalidate>
+        <div class="form-group mt-3">
+          <label for="first_name">First name</label>
+          <input class="form-control" type="text" name="first_name" id="first_name" required autocomplete="on">
+        </div>
+        <div class="form-group">
+          <label for="last_name">Last name</label>
+          <input class="form-control" type="text" name="last_name" id="last_name" required autocomplete="on">
+        </div>
+        <div class="form-group">
+          <label for="email_name">Email</label>
+          <input class="form-control" type="email" name="email_name" id="email_name" required autocomplete="on">
+        </div>
+        <div class="form-group">
+          <label for="phone_name">Phone</label>
+          <input class="form-control" type="number" name="phone_name" id="phone_name" required autocomplete="on">
+        </div>
+
+        <button style="border-color: #4f5d73; background-color:#4f5d73" type="submit" value="make_reservation"
+          class="mt-3 mb-5 btn btn-primary">Reserve</button>
+
+
+      </form>
+    </div>
+  </main>
+
+
+  <footer class="footer mt-auto py-3 bg-light">
+    <div class="container">
+      <span class="text-muted">Place sticky footer content here.</span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
 
 </body>
+
 </html>
